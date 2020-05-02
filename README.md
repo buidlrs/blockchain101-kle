@@ -49,9 +49,9 @@ Slides of all 4 sessions: https://drive.google.com/drive/folders/1hdkEqhWiESs5WY
 * Although you can work on any platform (Windows, Mac OSX, Linux), a **Debian** based operating system (Ubuntu, Linux Mint, Kali) is preferred. You can also install a docker container for Ubuntu 16.04 if you are comfortable with Linux (Optional).
 
     ```
-    $ docker pull ubuntu
-    $ docker run ubuntu:16.04 grep -v '^#' /etc/apt/sources.list
-    $ docker run -it ubuntu:16.04 /bin/bash
+    docker pull ubuntu
+    docker run ubuntu:16.04 grep -v '^#' /etc/apt/sources.list
+    docker run -it ubuntu:16.04 /bin/bash
  
     ```
     Run this inside the docker container:

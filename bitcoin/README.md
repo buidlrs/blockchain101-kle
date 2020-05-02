@@ -8,6 +8,7 @@ Clone the Bitcoin Core source code from https://github.com/bitcoin/bitcoin.git.
 
 1. Execute the shell script : 
 
+    For mac install `automake`, `autoconf`, and `libtool`
     `./autogen.sh` 
 
 2. Run the configuration script: 
